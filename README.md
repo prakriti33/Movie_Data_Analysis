@@ -4,9 +4,9 @@ This project explores a dataset of movies to extract insights through data clean
 
 ##  Files Included
 
-- `movies_dataset.csv`: Original raw movie dataset.
-- `final_dataset.csv`: Cleaned and processed dataset used for analysis.
-- `movie_analysis.ipynb`: Jupyter Notebook containing step-by-step data analysis and visualizations.
+- 
+- final_dataset.csv : Cleaned and processed dataset used for analysis.
+- movie_analysis.ipynb : Jupyter Notebook containing step-by-step data analysis and visualizations.
 
 ## 🔧 Technologies Used
 
@@ -16,48 +16,48 @@ This project explores a dataset of movies to extract insights through data clean
 - Seaborn
 - Jupyter Notebook
 
-##  Key Steps in the Project
+Key Steps in the Project
 
-### 1. **Data Cleaning**
+ 1. **Data Cleaning**
 - Removed missing/null values.
 - Converted date columns to proper datetime format.
 - Handled duplicates and irrelevant rows.
 
-### 2. **Feature Engineering**
+ 2. **Feature Engineering**
 - Extracted year and decade from `release_date`.
 - Added new columns like `release_year` and `Decade`.
 
-### 3. **Data Visualization**
+ 3. **Data Visualization**
 - Visualized movie counts by decade.
 - Additional visualizations can be added (e.g., by genre, ratings, popularity).
 
-### 4. **Basic Analysis**
+ 4. **Basic Analysis**
 - Count of movies per decade.
 - Basic trends in the movie industry over time.
 
-##  Sample Output
+# Sample Output
 
 Bar chart showing the number of movies released per decade (e.g., 1950s, 2000s, etc.)
 
-##  Future Improvements
+# Future Improvements
 
 - Genre-wise trend analysis
 - Ratings distribution
 - Correlation between budget and popularity
 - Dashboard in Power BI or Tableau
 
-##  Learnings
+# Learnings
 
 - Working with real-world messy datasets
 - Data cleaning and preprocessing
 - Creating meaningful visualizations
 - Using datetime in analysis
 
-##  Contributions
+# Contributions
 
 Feel free to fork this repo and make your own improvements!
 
-## Contact
+# Contact
 
 For any questions or feedback, feel free to reach out via GitHub or LinkedIn.
 
